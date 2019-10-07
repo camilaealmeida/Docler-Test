@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="6737bd87-0410-42a9-80d3-c5465545c19f" name="Camila_E_Almeida@W10D273QV2 2019-10-07 01:55:43" runUser="AMERICAS\Camila_E_Almeida" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2019-10-07T01:55:43.2462447+05:30" queuing="2019-10-07T01:55:43.2462448+05:30" start="2019-10-07T01:55:34.2008695+05:30" finish="2019-10-07T01:55:47.8755042+05:30" />
+  <TestSettings name="default" id="734f05f4-e7dd-446a-b02c-bc460bfa4531">
+    <Deployment runDeploymentRoot="Camila_E_Almeida_W10D273QV2_2019-10-07_01_55_43" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="69c80537-8304-450f-b804-3145e4a5e19f" testId="36a01e1a-f5be-7761-9bf0-3bbc9bab258a" testName="REQ_UI_12_ValidateTheWelcomeMessage(&quot;12345&quot;,null)" computerName="W10D273QV2" duration="00:00:00.4300000" startTime="2019-10-07T01:55:46.0000000+05:30" endTime="2019-10-07T01:55:46.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69c80537-8304-450f-b804-3145e4a5e19f">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.0s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user enter "12345"&#xD;
+-&gt; done: FormPageSteps.GivenUserEnter("12345") (0.1s)&#xD;
+When I click on go button&#xD;
+-&gt; done: FormPageSteps.WhenIClickOnGoButton() (0.2s)&#xD;
+Then a message "Hello 12345!" is displayed&#xD;
+-&gt; done: FormPageSteps.ThenAMessageIsDisplayed("Hello 12345!") (0.0s)&#xD;
+And Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="daff0860-8681-402c-bc73-7f5a6c286993" testId="20fe60ef-efff-c87e-c5c9-3aec0a1fe0cf" testName="REQ_UI_09_ValidadeH1Text" computerName="W10D273QV2" duration="00:00:00.1370000" startTime="2019-10-07T01:55:47.0000000+05:30" endTime="2019-10-07T01:55:47.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="daff0860-8681-402c-bc73-7f5a6c286993">
+      <Output>
+        <StdOut>Given user access Home page&#xD;
+-&gt; done: HomePageSteps.GivenUserAccessHomePage() (0.0s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user is on Home page&#xD;
+-&gt; done: HomePageSteps.GivenUserIsOnHomePage() (0.0s)&#xD;
+Then message "Welcome to the Docler Holding QA Department" in "h1" tag&#xD;
+-&gt; done: HomePageSteps.ThenMessageInTag("Welcome to the Do...", "h1") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5ce62609-3b84-4bb0-bc7a-005cb00c1179" testId="6187ca2a-9b2d-2993-80ea-7be173336433" testName="REQ_UI_07_ClickOnErrorButtonShouldGet404HTTPResponseCode" computerName="W10D273QV2" duration="00:00:01.0250000" startTime="2019-10-07T01:55:41.0000000+05:30" endTime="2019-10-07T01:55:42.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ce62609-3b84-4bb0-bc7a-005cb00c1179">
+      <Output>
+        <StdOut>Given user access Home page&#xD;
+-&gt; done: HomePageSteps.GivenUserAccessHomePage() (0.7s)&#xD;
+When I click on error button&#xD;
+-&gt; done: BaseSteps.WhenIClickOnErrorButton() (0.2s)&#xD;
+Then an 404 error code should happen&#xD;
+-&gt; done: ErrorPageSteps.ThenAnErrorCodeShouldHappen(404) (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f5f6e567-d6dd-409a-8b57-fb5200dffb64" testId="4c93114e-abaf-4dc7-ce35-660a29de1a6a" testName="REQ_UI_12_ValidateTheWelcomeMessage(&quot;camila&quot;,null)" computerName="W10D273QV2" duration="00:00:00.4440000" startTime="2019-10-07T01:55:45.0000000+05:30" endTime="2019-10-07T01:55:45.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5f6e567-d6dd-409a-8b57-fb5200dffb64">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.0s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user enter "camila"&#xD;
+-&gt; done: FormPageSteps.GivenUserEnter("camila") (0.1s)&#xD;
+When I click on go button&#xD;
+-&gt; done: FormPageSteps.WhenIClickOnGoButton() (0.2s)&#xD;
+Then a message "Hello camila!" is displayed&#xD;
+-&gt; done: FormPageSteps.ThenAMessageIsDisplayed("Hello camila!") (0.0s)&#xD;
+And Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="540e37c9-4da0-490a-8aae-7fb8be80b357" testId="7159f9a7-b3d5-c2d1-dfa5-725fefc9218e" testName="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Sophia&quot;,null)" computerName="W10D273QV2" duration="00:00:00.5360000" startTime="2019-10-07T01:55:43.0000000+05:30" endTime="2019-10-07T01:55:44.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="540e37c9-4da0-490a-8aae-7fb8be80b357">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.1s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user enter "Sophia"&#xD;
+-&gt; done: FormPageSteps.GivenUserEnter("Sophia") (0.2s)&#xD;
+When I click on go button&#xD;
+-&gt; done: FormPageSteps.WhenIClickOnGoButton() (0.2s)&#xD;
+Then a message "Hello Sophia!" is displayed&#xD;
+-&gt; done: FormPageSteps.ThenAMessageIsDisplayed("Hello Sophia!") (0.0s)&#xD;
+And Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ef381257-4842-4190-86d0-5cb21e9840fa" testId="7daabd98-a337-daca-b4f4-cb9e62262d15" testName="REQ_UI_12_ValidateTheWelcomeMessage(&quot;João&quot;,null)" computerName="W10D273QV2" duration="00:00:00.5360000" startTime="2019-10-07T01:55:45.0000000+05:30" endTime="2019-10-07T01:55:46.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef381257-4842-4190-86d0-5cb21e9840fa">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.1s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user enter "João"&#xD;
+-&gt; done: FormPageSteps.GivenUserEnter("João") (0.1s)&#xD;
+When I click on go button&#xD;
+-&gt; done: FormPageSteps.WhenIClickOnGoButton() (0.2s)&#xD;
+Then a message "Hello João!" is displayed&#xD;
+-&gt; error:   Expected string length 11 but was 16. Strings differ at index 8.&#xD;
+  Expected: "Hello João!"&#xD;
+  But was:  "Hello Jo%C3%A3o!"&#xD;
+  -------------------^&#xD;
+&#xD;
+And Docler Holding logo is present&#xD;
+-&gt; skipped because of previous errors&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; skipped because of previous errors</StdOut>
+        <ErrorInfo>
+          <Message>  Expected string length 11 but was 16. Strings differ at index 8.&#xD;
+  Expected: "Hello João!"&#xD;
+  But was:  "Hello Jo%C3%A3o!"&#xD;
+  -------------------^&#xD;
+</Message>
+          <StackTrace>   at DoclerTest.Steps.FormPageSteps.ThenAMessageIsDisplayed(String p0) in C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\Steps\FormPageSteps.cs:line 97&#xD;
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 69&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 395&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 316&#xD;
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 132&#xD;
+   at DoclerTest.Features.FormPageFeature.ScenarioCleanup()&#xD;
+   at DoclerTest.Features.FormPageFeature.REQ_UI_12_ValidateTheWelcomeMessage(String value, String[] exampleTags) in C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\Features\FormPage.feature:line 25&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e17e2dea-e678-4013-8592-1f8ac3176606" testId="e3c9f5a2-04e5-bac4-47d9-6722584e92c7" testName="REQ_UI_11_ValidadeInputBoxAndSubmitButton" computerName="W10D273QV2" duration="00:00:00.1940000" startTime="2019-10-07T01:55:43.0000000+05:30" endTime="2019-10-07T01:55:43.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e17e2dea-e678-4013-8592-1f8ac3176606">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.0s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Then user can see one input box&#xD;
+-&gt; done: FormPageSteps.ThenUserCanSeeOneInputBox() (0.1s)&#xD;
+And one submit button&#xD;
+-&gt; done: FormPageSteps.ThenOneSubmitButton() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4caa2e00-ed57-4bd6-83b0-d1fe3b70c5ad" testId="24016acb-b75b-45f9-3877-33b8df60934f" testName="REQ_UI_10_ValidadePText" computerName="W10D273QV2" duration="00:00:00.1370000" startTime="2019-10-07T01:55:47.0000000+05:30" endTime="2019-10-07T01:55:47.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4caa2e00-ed57-4bd6-83b0-d1fe3b70c5ad">
+      <Output>
+        <StdOut>Given user access Home page&#xD;
+-&gt; done: HomePageSteps.GivenUserAccessHomePage() (0.0s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user is on Home page&#xD;
+-&gt; done: HomePageSteps.GivenUserIsOnHomePage() (0.0s)&#xD;
+Then message "This site is dedicated to perform some exercises and demonstrate automated web testing." in "p" tag&#xD;
+-&gt; done: HomePageSteps.ThenMessageInTag("This site is dedi...", "p") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fc0b1c31-172a-4273-8ca6-48ca4063cd53" testId="e81e1504-7d64-a968-dc82-83f30dc2d318" testName="REQ_UI_12_ValidateTheWelcomeMessage(&quot;John&quot;,null)" computerName="W10D273QV2" duration="00:00:00.4800000" startTime="2019-10-07T01:55:43.0000000+05:30" endTime="2019-10-07T01:55:43.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc0b1c31-172a-4273-8ca6-48ca4063cd53">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.0s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user enter "John"&#xD;
+-&gt; done: FormPageSteps.GivenUserEnter("John") (0.1s)&#xD;
+When I click on go button&#xD;
+-&gt; done: FormPageSteps.WhenIClickOnGoButton() (0.2s)&#xD;
+Then a message "Hello John!" is displayed&#xD;
+-&gt; done: FormPageSteps.ThenAMessageIsDisplayed("Hello John!") (0.1s)&#xD;
+And Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd8f24ed-4b86-440d-bc72-52eac56fbd41" testId="4057e28b-6530-e9b2-eaf9-10158e84f215" testName="REQ_UI_03AndREQ_UI_04_HomeButtonMustNavigateToHomePage" computerName="W10D273QV2" duration="00:00:00.3230000" startTime="2019-10-07T01:55:46.0000000+05:30" endTime="2019-10-07T01:55:47.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd8f24ed-4b86-440d-bc72-52eac56fbd41">
+      <Output>
+        <StdOut>Given user access Home page&#xD;
+-&gt; done: HomePageSteps.GivenUserAccessHomePage() (0.0s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.0s)&#xD;
+When I click on home button&#xD;
+-&gt; done: BaseSteps.WhenIClickOnHomeButton() (0.1s)&#xD;
+Then Home page is displayed&#xD;
+-&gt; done: HomePageSteps.ThenHomePageIsDisplayed() (0.0s)&#xD;
+And home button is active&#xD;
+-&gt; done: HomePageSteps.ThenHomeButtonIsActive() (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="08d1cd45-7847-4f3a-82cb-f139186abfab" testId="8d006811-afe7-58e2-0701-acedb515c13a" testName="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Charlie&quot;,null)" computerName="W10D273QV2" duration="00:00:00.5210000" startTime="2019-10-07T01:55:44.0000000+05:30" endTime="2019-10-07T01:55:44.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08d1cd45-7847-4f3a-82cb-f139186abfab">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.1s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user enter "Charlie"&#xD;
+-&gt; done: FormPageSteps.GivenUserEnter("Charlie") (0.1s)&#xD;
+When I click on go button&#xD;
+-&gt; done: FormPageSteps.WhenIClickOnGoButton() (0.2s)&#xD;
+Then a message "Hello Charlie!" is displayed&#xD;
+-&gt; done: FormPageSteps.ThenAMessageIsDisplayed("Hello Charlie!") (0.0s)&#xD;
+And Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dabb2db6-0710-4e0c-9bda-119eca48fd1a" testId="14448d94-767f-2d82-c03b-12bdefc04734" testName="REQ_UI_05AndREQ_UI_06_FormButtonMustNavigateToFormPage" computerName="W10D273QV2" duration="00:00:00.4460000" startTime="2019-10-07T01:55:42.0000000+05:30" endTime="2019-10-07T01:55:43.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dabb2db6-0710-4e0c-9bda-119eca48fd1a">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.1s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.1s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user access Home page&#xD;
+-&gt; done: HomePageSteps.GivenUserAccessHomePage() (0.1s)&#xD;
+When I click on form button&#xD;
+-&gt; done: BaseSteps.WhenIClickOnFormButton() (0.1s)&#xD;
+Then Form page is displayed&#xD;
+-&gt; done: FormPageSteps.ThenFormPageIsDisplayed() (0.0s)&#xD;
+And form button is active&#xD;
+-&gt; done: FormPageSteps.ThenFormButtonIsActive() (0.1s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e673d95f-b7d9-491e-bae8-f4184cca618e" testId="13ec38de-71ad-ba0c-c428-f2191a5272cc" testName="REQ_UI_08AndREQ_UI_04_UITestingButtonMustNavigateToHomePage" computerName="W10D273QV2" duration="00:00:00.2870000" startTime="2019-10-07T01:55:47.0000000+05:30" endTime="2019-10-07T01:55:47.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e673d95f-b7d9-491e-bae8-f4184cca618e">
+      <Output>
+        <StdOut>Given user access Home page&#xD;
+-&gt; done: HomePageSteps.GivenUserAccessHomePage() (0.0s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.0s)&#xD;
+When I click on UITesting button&#xD;
+-&gt; done: BaseSteps.WhenIClickOnUITestingButton() (0.1s)&#xD;
+Then Home page is displayed&#xD;
+-&gt; done: HomePageSteps.ThenHomePageIsDisplayed() (0.0s)&#xD;
+And home button is active&#xD;
+-&gt; done: HomePageSteps.ThenHomeButtonIsActive() (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="619b0a44-ee81-4e2f-93d2-161a301c729c" testId="84d1adc0-cf62-6ecf-01bf-48c5680a3430" testName="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Emily&quot;,null)" computerName="W10D273QV2" duration="00:00:00.4870000" startTime="2019-10-07T01:55:44.0000000+05:30" endTime="2019-10-07T01:55:45.0000000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="619b0a44-ee81-4e2f-93d2-161a301c729c">
+      <Output>
+        <StdOut>Given user access Form page&#xD;
+-&gt; done: FormPageSteps.GivenUserAccessFormPage() (0.1s)&#xD;
+Then Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)&#xD;
+Given user enter "Emily"&#xD;
+-&gt; done: FormPageSteps.GivenUserEnter("Emily") (0.1s)&#xD;
+When I click on go button&#xD;
+-&gt; done: FormPageSteps.WhenIClickOnGoButton() (0.2s)&#xD;
+Then a message "Hello Emily!" is displayed&#xD;
+-&gt; done: FormPageSteps.ThenAMessageIsDisplayed("Hello Emily!") (0.0s)&#xD;
+And Docler Holding logo is present&#xD;
+-&gt; done: BaseSteps.ThenDoclerHoldingLogoIsPresent() (0.0s)&#xD;
+And title should be "UI Testing Site"&#xD;
+-&gt; done: BaseSteps.ThenTitleShouldBe("UI Testing Site") (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;12345&quot;,null)" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="36a01e1a-f5be-7761-9bf0-3bbc9bab258a">
+      <Execution id="69c80537-8304-450f-b804-3145e4a5e19f" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;12345&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_03AndREQ_UI_04_HomeButtonMustNavigateToHomePage" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="4057e28b-6530-e9b2-eaf9-10158e84f215">
+      <Execution id="cd8f24ed-4b86-440d-bc72-52eac56fbd41" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.HomePageFeature" name="REQ_UI_03AndREQ_UI_04_HomeButtonMustNavigateToHomePage" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_10_ValidadePText" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="24016acb-b75b-45f9-3877-33b8df60934f">
+      <Execution id="4caa2e00-ed57-4bd6-83b0-d1fe3b70c5ad" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.HomePageFeature" name="REQ_UI_10_ValidadePText" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Sophia&quot;,null)" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="7159f9a7-b3d5-c2d1-dfa5-725fefc9218e">
+      <Execution id="540e37c9-4da0-490a-8aae-7fb8be80b357" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Sophia&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_07_ClickOnErrorButtonShouldGet404HTTPResponseCode" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="6187ca2a-9b2d-2993-80ea-7be173336433">
+      <Execution id="5ce62609-3b84-4bb0-bc7a-005cb00c1179" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.ErrorPageFeature" name="REQ_UI_07_ClickOnErrorButtonShouldGet404HTTPResponseCode" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;João&quot;,null)" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="7daabd98-a337-daca-b4f4-cb9e62262d15">
+      <Execution id="ef381257-4842-4190-86d0-5cb21e9840fa" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;João&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_09_ValidadeH1Text" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="20fe60ef-efff-c87e-c5c9-3aec0a1fe0cf">
+      <Execution id="daff0860-8681-402c-bc73-7f5a6c286993" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.HomePageFeature" name="REQ_UI_09_ValidadeH1Text" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_11_ValidadeInputBoxAndSubmitButton" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="e3c9f5a2-04e5-bac4-47d9-6722584e92c7">
+      <Execution id="e17e2dea-e678-4013-8592-1f8ac3176606" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_11_ValidadeInputBoxAndSubmitButton" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Emily&quot;,null)" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="84d1adc0-cf62-6ecf-01bf-48c5680a3430">
+      <Execution id="619b0a44-ee81-4e2f-93d2-161a301c729c" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Emily&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_08AndREQ_UI_04_UITestingButtonMustNavigateToHomePage" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="13ec38de-71ad-ba0c-c428-f2191a5272cc">
+      <Execution id="e673d95f-b7d9-491e-bae8-f4184cca618e" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.HomePageFeature" name="REQ_UI_08AndREQ_UI_04_UITestingButtonMustNavigateToHomePage" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;camila&quot;,null)" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="4c93114e-abaf-4dc7-ce35-660a29de1a6a">
+      <Execution id="f5f6e567-d6dd-409a-8b57-fb5200dffb64" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;camila&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_05AndREQ_UI_06_FormButtonMustNavigateToFormPage" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="14448d94-767f-2d82-c03b-12bdefc04734">
+      <Execution id="dabb2db6-0710-4e0c-9bda-119eca48fd1a" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_05AndREQ_UI_06_FormButtonMustNavigateToFormPage" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;John&quot;,null)" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="e81e1504-7d64-a968-dc82-83f30dc2d318">
+      <Execution id="fc0b1c31-172a-4273-8ca6-48ca4063cd53" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;John&quot;,null)" />
+    </UnitTest>
+    <UnitTest name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Charlie&quot;,null)" storage="c:\users\camila_e_almeida\downloads\privatedoclertest-master\privatedoclertest-master\doclertest\bin\debug\netcoreapp2.2\doclertest.dll" id="8d006811-afe7-58e2-0701-acedb515c13a">
+      <Execution id="08d1cd45-7847-4f3a-82cb-f139186abfab" />
+      <TestMethod codeBase="C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll" adapterTypeName="executor://nunit3testexecutor/" className="DoclerTest.Features.FormPageFeature" name="REQ_UI_12_ValidateTheWelcomeMessage(&quot;Charlie&quot;,null)" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="36a01e1a-f5be-7761-9bf0-3bbc9bab258a" executionId="69c80537-8304-450f-b804-3145e4a5e19f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20fe60ef-efff-c87e-c5c9-3aec0a1fe0cf" executionId="daff0860-8681-402c-bc73-7f5a6c286993" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6187ca2a-9b2d-2993-80ea-7be173336433" executionId="5ce62609-3b84-4bb0-bc7a-005cb00c1179" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c93114e-abaf-4dc7-ce35-660a29de1a6a" executionId="f5f6e567-d6dd-409a-8b57-fb5200dffb64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7159f9a7-b3d5-c2d1-dfa5-725fefc9218e" executionId="540e37c9-4da0-490a-8aae-7fb8be80b357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7daabd98-a337-daca-b4f4-cb9e62262d15" executionId="ef381257-4842-4190-86d0-5cb21e9840fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3c9f5a2-04e5-bac4-47d9-6722584e92c7" executionId="e17e2dea-e678-4013-8592-1f8ac3176606" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24016acb-b75b-45f9-3877-33b8df60934f" executionId="4caa2e00-ed57-4bd6-83b0-d1fe3b70c5ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e81e1504-7d64-a968-dc82-83f30dc2d318" executionId="fc0b1c31-172a-4273-8ca6-48ca4063cd53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4057e28b-6530-e9b2-eaf9-10158e84f215" executionId="cd8f24ed-4b86-440d-bc72-52eac56fbd41" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d006811-afe7-58e2-0701-acedb515c13a" executionId="08d1cd45-7847-4f3a-82cb-f139186abfab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14448d94-767f-2d82-c03b-12bdefc04734" executionId="dabb2db6-0710-4e0c-9bda-119eca48fd1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13ec38de-71ad-ba0c-c428-f2191a5272cc" executionId="e673d95f-b7d9-491e-bae8-f4184cca618e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84d1adc0-cf62-6ecf-01bf-48c5680a3430" executionId="619b0a44-ee81-4e2f-93d2-161a301c729c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="14" executed="14" passed="13" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in C:\Users\camila_e_almeida\Downloads\PrivateDoclerTest-master\PrivateDoclerTest-master\DoclerTest\bin\Debug\netcoreapp2.2\DoclerTest.dll&#xD;
+   NUnit3TestExecutor converted 14 of 14 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="W10D273QV2" outcome="Error" timestamp="2019-10-07T01:55:47.6496702+05:30">
+        <Text>An exception occurred while invoking executor 'executor://specrun/executorV3.0.391': Exception has been thrown by the target of an invocation.&#xD;
+Could not load file or assembly 'TechTalk.SpecRun.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=d0fc5cc18b3b389b'. The system cannot find the file specified.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
